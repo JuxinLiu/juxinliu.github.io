@@ -1,0 +1,141 @@
+body, h1, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	color: #333;
+	line-height: 1.6;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	background-color: #1C1C1D;;
+}
+
+main {
+	flex: 1;
+	padding: 2rem;
+	text-align: center;
+	color: white;
+}
+
+header {
+	background: #2c3e50;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+
+header nav a.active {
+	background-color: #007bff;
+	color: #fff;
+	border-radius: 4px;
+}
+
+nav {
+	margin-top: 0.5rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	transition: background 0.3s;
+}
+
+nav a:hover {
+	background: #34495e;
+}
+
+.home-main-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home-main-div1 {
+	margin-left: 25%;
+}
+
+.home-main-div2 {
+	width: 80%;
+	text-align:left;
+}
+
+.home-main-div3 {
+	width: 65%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.general-div {
+	margin-left: 9%;
+	font-size: 20px;
+}
+
+div.list-title, div.team-list-title {
+	display: flex;
+	justify-content: left;
+	align-items: left;
+}
+
+div.list-title {
+	margin-left: 9%;
+}
+
+div.team-list-title {
+	margin-left: 2%;
+}
+
+div.pub-list, div.course-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background: #2c3e50;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	}
+
+ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 20px;
+	width: 80%;
+}
+
+li {
+	text-align: left;
+	margin-bottom: 12px;
+}
+
+ul.team li {
+	margin-left: 4%;
+}
+
+b {
+	font-weight: 600;
+}
+
+i {
+	font-style: italic;
+}
+
+a {
+	color: #FFC72C;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
