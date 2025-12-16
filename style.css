@@ -60,12 +60,12 @@ nav a:hover {
 }
 
 .home-main-div1 {
-	margin-left: 25%;
+	width: 30%;
 }
 
 .home-main-div2 {
-	width: 80%;
-	text-align:left;
+	width: 70%;
+	text-align: left;
 }
 
 .home-main-div3 {
@@ -77,7 +77,7 @@ nav a:hover {
 
 .general-div {
 	margin-left: 9%;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 div.list-title, div.team-list-title {
@@ -91,7 +91,7 @@ div.list-title {
 }
 
 div.team-list-title {
-	margin-left: 10%;
+	margin-left: 7%;
 }
 
 div.pub-list, div.course-list {
@@ -119,8 +119,8 @@ li {
 	margin-bottom: 12px;
 }
 
-ul.team {
-	margin-left: 11%;
+ul.team li {
+	margin-left: 10%;
 }
 
 b {
